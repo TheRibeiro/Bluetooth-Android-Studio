@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="5sp"/>
+
+    <Button
+        android:id="@+id/ligar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ligar/Desligar BT"/>
+
+    <Button
+        android:id="@+id/conectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conectar BT"/>
+
+
+    <Switch
+        android:id="@+id/led1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LED 1 off"
+        android:layout_marginBottom="5sp">
+    </Switch>
+
+    <TextView
+        android:id="@+id/recebido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Texto recebido:"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="5sp"/>
+
+
+
+</LinearLayout>
